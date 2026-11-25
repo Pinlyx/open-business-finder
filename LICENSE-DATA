@@ -1,0 +1,22 @@
+Data licenses for open-business-finder
+
+This repository ships code (MIT, see LICENSE) and one small data file:
+src/open_business_finder/data/categories.csv. It lists the category names of the
+Overture Maps places theme with their worldwide record counts for one release.
+
+Overture Maps Foundation data, which the tool queries at run time, is licensed per theme:
+
+- Places: Community Data License Agreement - Permissive, Version 2.0 (CDLA-Permissive-2.0).
+  https://cdla.dev/permissive-2-0/
+- Divisions (administrative boundaries): Open Database License (ODbL) 1.0, because the
+  theme includes data derived from OpenStreetMap.
+  https://opendatacommons.org/licenses/odbl/1-0/
+
+Required attribution when you publish results:
+
+  Places data: Overture Maps Foundation (CDLA-Permissive-2.0).
+  Boundaries: (c) OpenStreetMap contributors, Overture Maps Foundation (ODbL 1.0).
+
+See https://docs.overturemaps.org/attribution/ for the current wording.
+The licenses of data you obtain with this tool are those of Overture and its sources,
+not the MIT license of this code.
