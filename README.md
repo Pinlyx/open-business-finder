@@ -1,5 +1,9 @@
 # open-business-finder
 
+[![CI](https://github.com/Pinlyx/open-business-finder/actions/workflows/ci.yml/badge.svg)](https://github.com/Pinlyx/open-business-finder/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.10%20to%203.13-3776ab.svg)](pyproject.toml)
+
+![open-business-finder](docs/images/open-business-finder-social-preview.png)
+
 List local businesses in any country by region, district and category, straight from open map data. No API key, no browser, no scraping of Google.
 
 ```console
